@@ -1,0 +1,82 @@
+.TopBar {
+  width: 100%;
+  height: 80px;
+  background: rgba(51, 51, 51, 0.7);
+  backdrop-filter: blur(30px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.SiteLogo {
+  background-image: url("../../img/FoodieLogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 70px;
+}
+.TopBar__Links {
+  display: inline-flex;
+  list-style-type: none;
+  font-size: 20px;
+  color: #ffffff;
+}
+.TopBar__Links > li {
+  margin-left: 50px;
+  display: flex;
+}
+.HeaderLinks {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.TopBar__Container {
+  display: flex;
+}
+.TopBar__Search {
+  width: 300px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TopBar__Search > input {
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.TopBar__Search > input::placeholder {
+  color: #bdbdbd;
+  font-size: 16px;
+}
+.MuiSvgIcon-root {
+  color: #f2f2f2;
+  margin-right: 15px;
+}
+.TopBar__btn {
+  background-color: #f2c94c;
+  border: 2px solid #f2c94c;
+  border-radius: 100px;
+  outline: none;
+  padding: 0 20px;
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.TopBar__btn:hover {
+  border: 2px solid #f2c94c;
+  background-color: transparent;
+  color: #f2c94c;
+}
+.Link__active {
+  color: #f2c94c;
+  font-weight: bold;
+}

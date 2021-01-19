@@ -1,0 +1,52 @@
+.Container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.Headline__tittle {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 30px 0;
+}
+.Headline__tittle > span {
+  color: #f2c94c;
+}
+.Recipe__Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.BoxWrapper {
+  border-radius: 16px;
+  overflow: hidden;
+  width: 290px;
+  height: 220px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+  transition: 1s;
+}
+.BoxWrapper:hover {
+  transform: scaleZ();
+}
+.BoxImg {
+  width: 290px;
+  height: 150px;
+  background-size: cover;
+}
+.BoxTittle {
+  width: 290px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.BoxTittle > p {
+  text-align: center;
+  font-size: 22px;
+  margin-left: 10px;
+}
+.BoxTittle > .MuiSvgIcon-root {
+  color: #222222;
+}
